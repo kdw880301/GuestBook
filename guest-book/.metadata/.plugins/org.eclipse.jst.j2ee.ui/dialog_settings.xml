@@ -7,5 +7,6 @@
 	</list>
 	<list key="J2EE_EXPORT_JST_WEB">
 		<item value="C:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\GuestBook.war"/>
+		<item value="C:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\guest-book.war"/>
 	</list>
 </section>
