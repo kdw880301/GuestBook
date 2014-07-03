@@ -1,3 +1,0 @@
-guest-book
-==========
-hi    hello
