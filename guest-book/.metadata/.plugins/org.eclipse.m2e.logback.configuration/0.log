@@ -480,3 +480,123 @@
 2014-07-03 20:52:48,864 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2014-07-03 20:52:55,593 [Worker-120] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\GuestBook\GuestBook
 2014-07-03 20:52:55,593 [Worker-120] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile -e -X
+2014-07-04 01:32:50,396 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:38:15,676 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:38:15,712 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:38:15,848 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:38:24,044 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:38:24,044 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-04 01:38:32,965 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:38:32,966 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:38:48,208 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:38:48,208 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-04 01:39:33,537 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:39:33,537 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-04 01:39:45,938 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-07-04 01:39:45,980 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:39:45,994 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:39:46,056 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:39:46,302 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GuestBook/src/main/java
+2014-07-04 01:39:46,302 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /GuestBook/src/main/resources overlaps with sources folder /GuestBook/src/main/resources
+2014-07-04 01:39:46,303 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GuestBook/src/test/java
+2014-07-04 01:39:46,303 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /GuestBook/src/test/resources overlaps with sources folder /GuestBook/src/test/resources
+2014-07-04 01:39:46,668 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for GuestBook
+2014-07-04 01:39:46,670 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-07-04 01:39:47,652 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:39:47,680 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:39:47,818 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:40:21,177 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:40:21,177 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-04 01:40:35,459 [Worker-4] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:550) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:559) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:504) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:459) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:334) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:92) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1301) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:90) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53) [org.eclipse.core.jobs_3.5.300.v20130429-1813.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: Unrecognised tag: 'repository' (position: START_TAG seen ...</properties>\n\t\n\t<repository>... @17:14) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:127) ~[maven-model-builder-3.0.4.jar:3.0.4]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:91) ~[maven-model-builder-3.0.4.jar:3.0.4]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:548) [org.eclipse.m2e.core_1.4.0.20130601-0317.jar:na]
+	... 12 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognised tag: 'repository' (position: START_TAG seen ...</properties>\n\t\n\t<repository>... @17:14) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkUnknownElement(MavenXpp3Reader.java:155) ~[maven-model-3.0.4.jar:3.0.4]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2484) ~[maven-model-3.0.4.jar:3.0.4]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:4088) ~[maven-model-3.0.4.jar:3.0.4]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:4021) ~[maven-model-3.0.4.jar:3.0.4]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.0.4.jar:3.0.4]
+	... 14 common frames omitted
+2014-07-04 01:40:51,984 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:40:57,989 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:40:57,989 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-04 01:41:32,166 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:41:38,762 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:41:38,762 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-04 01:41:57,866 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:41:57,868 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:41:57,975 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:42:08,534 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:42:08,534 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:42:50,107 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:42:50,110 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:42:50,176 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:42:56,957 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:42:56,958 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:44:06,555 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:44:06,558 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:44:06,624 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:44:15,525 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:44:15,525 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:44:25,193 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-07-04 01:44:29,835 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:44:29,836 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install -e -X
+2014-07-04 01:45:18,852 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:45:18,868 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:45:18,941 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:45:22,532 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:45:22,533 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:45:38,515 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:45:38,520 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:45:38,598 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:45:43,545 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:45:43,545 [Worker-0] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:46:45,061 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:46:45,064 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:46:45,163 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:46:50,036 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:46:50,037 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:47:21,370 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:47:21,374 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:47:21,455 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:47:25,678 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:47:25,678 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:47:42,660 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:47:42,675 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:47:42,745 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:47:45,771 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:47:45,771 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:47:54,381 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:47:54,385 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:47:54,463 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:47:56,493 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:47:56,494 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:48:14,556 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:48:14,566 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:48:14,631 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for cubrid:cubrid-jdbc:jar:9.3.0.0206 is missing, no dependency information available
+2014-07-04 01:51:08,480 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:51:12,821 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:51:12,822 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:52:48,837 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-04 01:52:52,859 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:52:52,859 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-04 01:53:07,332 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-07-04 01:53:13,346 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-04 01:53:13,346 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile -e -X
