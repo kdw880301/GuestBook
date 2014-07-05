@@ -5,7 +5,80 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2014-07-02T06:04:37Z</updated>
+  <updated>2014-07-03T15:29:00Z</updated>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Tooling for Spring's next generation</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/07/03/springone2gx-2013-replay-tooling-for-spring-s-next-generation" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-07-03:1666</id>
+    <updated>2014-07-03T15:29:00Z</updated>
+    <content type="html">&lt;p&gt;Tooling for Spring's next generation &lt;/p&gt;
+
+&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA &lt;/p&gt;
+
+&lt;p&gt;Speakers: Andy Clement and Martin Lippert &lt;/p&gt;
+
+&lt;p&gt;The Spring Tool Suite (STS) is constantly evolving to keep pace with developments in Spring as well as the larger world of enterprise application development. This talk focuses on Eclipse-based tooling for the latest features throughout the Spring ecosystem. With plenty of live demos, we'll show you how to get productive quickly with Spring and STS. We''ll start with reviewing areas including XML-free Spring development and then look at early support for specific Spring's next generation features. We'll also demo the Eclipse support for Java 8 (also AspectJ support for Java 8) and spend some time looking at how this enhances your Spring development experience. In addition to the pure Java-based Spring programming, we will also cover the integration of the Groovy language tooling and show you how to program Spring apps in Groovy using the Spring Tool Suite. We will then dive into the details of the tooling to demonstrate a number of hidden gems that help you improve your productivity every day, like the built-in validations and best practices, quick-fixes, auto-completions, and automated refactorings. Last, but not least, we will review some of the performance improvements made recently in Spring Tool Suite. &lt;/p&gt;
+
+&lt;p&gt;Learn more about Spring Tool Suite at &lt;a href="http://spring.io/tools"&gt;http://spring.io/tools&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Learn more about Spring at &lt;a href="http://projects.spring.io/spring-framework"&gt;http://projects.spring.io/spring-framework&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;iframe width="560" height="315" src="//www.youtube.com/embed/reYgWdrwfyQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>SpringOne2GX 2013 Replay: Performance - tuning the Spring Petclinic sample application</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/07/03/springone2gx-2013-replay-performance-tuning-the-spring-petclinic-sample-application" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2014-07-03:1665</id>
+    <updated>2014-07-03T15:22:00Z</updated>
+    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA.&lt;/p&gt;
+
+&lt;p&gt;Speaker: Julien Dubios &lt;/p&gt;
+
+&lt;p&gt;This talk is a live version of my blog posts on performance-tuning the Spring Petclinic application: &lt;a href="http://blog.ippon.fr/tag/spring-petclinic/"&gt;http://blog.ippon.fr/tag/spring-petclinic/&lt;/a&gt; We will talk about JVM locks, Web application performance best practices, JDBC vs JPA, and caching We will see how to use effectively tools such as JMeter, Yourkit and Intellij IDEA to quickly solve performance issues We will also explain the methodology used, so you can follow the same steps on your own applications In this session we will talk about :     &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stress tests&lt;/li&gt;
+  &lt;li&gt; Memory leaks&lt;/li&gt;
+  &lt;li&gt; Garbage Collection&lt;/li&gt;
+  &lt;li&gt; Profiling tools&lt;/li&gt;
+  &lt;li&gt; Application Server tuning     &lt;/li&gt;
+  &lt;li&gt;JVM tuning     &lt;/li&gt;
+  &lt;li&gt;Locks     &lt;/li&gt;
+  &lt;li&gt;JDBC vs JPA &lt;/li&gt;
+  &lt;li&gt;Lazy loading&lt;/li&gt;
+  &lt;li&gt; Caching&lt;/li&gt;
+  &lt;li&gt; And much more ! &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Learn more about Spring at &lt;a href="http://projects.spring.io/spring-framework"&gt;http://projects.spring.io/spring-framework&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/oR_7EtCgc1M" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Social Facebook 2.0.0.M1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2014/07/03/spring-social-facebook-2-0-0-m1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Craig Walls</name>
+    </author>
+    <id>tag:spring.io,2014-07-03:1663</id>
+    <updated>2014-07-03T12:43:00Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+
+&lt;p&gt;I'm pleased to announce the first milestone release of Spring Social Facebook 2.0.0. The primary focus of this release was to update the API binding to target version 2.0 of Facebook's Graph API. &lt;/p&gt;
+
+&lt;p&gt;Note that due to breaking changes in Facebook's Graph API, there were necessarily some breaking changes in this version of Spring Social Facebook. Fortunately, however, Facebook has promised a two-year stability guarantee for all versions of their API, so such breaking changes should be able to be handled more gracefully going forward.&lt;/p&gt;
+
+&lt;p&gt;Facebook is requiring all applications registered after April 30, 2014 to use v2.0 of the Graph API (older applications are allowed to use either v1.0 or v2.0 until April 30, 2015). Therefore, if you are building a new Facebook-enabled application with Spring Social, you'll likely want to look at this release, as there are some operations in Spring Social Facebook 1.1.x's API binding that will not work.&lt;/p&gt;
+
+&lt;p&gt;Although each method in the API binding was tested directly against Facebook Graph API v2.0, it's very possible that something was overlooked. I invite the Spring Social community to try out this release and provide feedback in the form of &lt;a href="https://jira.spring.io/browse/SOCIALFB"&gt;improvement and bug issues&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - July 1st, 2014</title>
     <link rel="alternate" href="https://spring.io/blog/2014/07/02/this-week-in-spring-july-1st-2014" />
@@ -944,114 +1017,6 @@ We are anticipating that several in-depth Spring-Integration sessions will be pr
 &lt;p&gt;?&lt;/p&gt;
 
 &lt;iframe width="560" height="315" src="//www.youtube.com/embed/oLoPpKq3JgU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>SpringOne2GX 2013 Replay: Open/Closed Software - Developing freemium application using Spring Framework</title>
-    <link rel="alternate" href="https://spring.io/blog/2014/06/17/springone2gx-2013-replay-open-closed-software-developing-freemium-application-using-spring-framework" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2014-06-17:1645</id>
-    <updated>2014-06-17T14:37:00Z</updated>
-    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2013 in Santa Clara, CA &lt;/p&gt;
-
-&lt;p&gt;Speaker: Frederic Simon Developing freemium which involves OSS is not a trivial task. From one side, you need to prevent premium code from working in your free modules, and do it gracefully - without errors and performance degradation. From other side, your OSS core must be easily accessible to the premium modules. Partial public availability of the code and unified continuous delivery process for two different versions of the product is also challenging. In this talk we'll showcase Artifactory, which successfully combines OSS and Pro versions by heavily relying on flexible dependency injection mechanics, available in Spring. We will talk about developing, building, testing and releasing hybrid freemium application and will review the existing approaches, discussing pros and cons of each of them.&lt;/p&gt;
-
-&lt;p&gt;Learn more about Spring Framework at &lt;a href="http://projects.spring.io/spring-framework"&gt;http://projects.spring.io/spring-framework&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;?&lt;/p&gt;
-
-&lt;iframe width="560" height="315" src="//www.youtube.com/embed/tqsmCvuQpuc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Meetup Replay: Querying and scripting in Hadoop</title>
-    <link rel="alternate" href="https://spring.io/blog/2014/06/16/meetup-replay-querying-and-scripting-in-hadoop" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2014-06-16:1641</id>
-    <updated>2014-06-16T10:39:00Z</updated>
-    <content type="html">&lt;p&gt;Kailashnath Kutti has more than three years of hands-on work experience working on some of the largest Hadoop projects. For the SingaSUG (Singapore Spring User Group), Kailash puts side by side all the ways to do queries and scripts in Hadoop: MapReduce, Pig, Hive, SQL, Spring XD...  You'll get a clear answer to questions such as: - Should you use MapReduce?  - When to use Pig and Hive? Do they have limitations? - When to use Spring XD? Kailash is a presales engineer working for pivotal and based in Singapore.&lt;/p&gt;
-
-&lt;p&gt;Learn more about Spring for Apache Hadoop at &lt;a href="http://projects.spring.io/spring-hadoop/"&gt;http://projects.spring.io/spring-hadoop/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Learn more about Spring for XD at &lt;a href="http://projects.spring.io/spring-xd/"&gt;http://projects.spring.io/spring-xd/&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;iframe width="560" height="315" src="//www.youtube.com/embed/IRBratnKDJ4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>Further Cache Improvements in Spring 4.1</title>
-    <link rel="alternate" href="https://spring.io/blog/2014/06/16/further-cache-improvements-in-spring-4-1" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>St?phane Nicoll</name>
-    </author>
-    <id>tag:spring.io,2014-06-11:1635</id>
-    <updated>2014-06-16T07:18:00Z</updated>
-    <content type="html">&lt;p&gt;This post is a follow-up of my earlier &lt;a href="http://spring.io/blog/2014/04/14/cache-abstraction-jcache-jsr-107-annotations-support"&gt;post related to JSR-107&lt;/a&gt;. Adding JSR-107 support gave us the opportunity to review our own and see how the two can live happily together. Spring 4.1 also contains a series of improvements reported by the community.&lt;/p&gt;
-
-&lt;p&gt;I am also happy to announce that a new getting started guide dedicated to the cache abstraction has been published, check &lt;a href="http://spring.io/guides/gs/caching/"&gt;Caching Data with Spring&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h1&gt;
-&lt;a name="user-content-cacheresolver" class="anchor" href="#cacheresolver" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;CacheResolver&lt;/h1&gt;
-
-&lt;p&gt;One of the nicest features we found in JSR-107 was the ability to resolve the cache to use at runtime, that is based on the actual method execution. So far, our own support was relying on cache name(s) being specified at the annotation (or aspect definition) level. Several issues were raised  to report that when more than one &lt;code&gt;CacheManager&lt;/code&gt; is used, it is required to be able to customize the manager to which those names were resolved to.&lt;/p&gt;
-
-&lt;p&gt;What we did ultimately was creating a similar &lt;code&gt;CacheResolver&lt;/code&gt; abstraction to give the most flexible options. As you might suspect,  the default implementation takes a &lt;code&gt;CacheManager&lt;/code&gt; and resolves the cache(s) to use based on the provided cache names. Because such names are no longer required, Spring 4.1 allows you to write the following:&lt;/p&gt;
-
-&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Cacheable&lt;/span&gt;
-&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="n"&gt;Book&lt;/span&gt; &lt;span class="nf"&gt;findBook&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ISBN&lt;/span&gt; &lt;span class="n"&gt;isbn&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{...}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Of course, you have to specify your own &lt;code&gt;CacheResolver&lt;/code&gt; that knows what to do with this particular invocation or you need to provide the cache(s) to use in a different manner (keep reading).&lt;/p&gt;
-
-&lt;p&gt;Just as the &lt;code&gt;value&lt;/code&gt; attribute of the annotation is no longer required, the &lt;code&gt;CacheManager&lt;/code&gt; may be omitted as long as a &lt;code&gt;CacheResolver&lt;/code&gt; is set. You may actually have an implementation of it that does not rely on the &lt;code&gt;CacheManager&lt;/code&gt; at all if you are managing your &lt;code&gt;Cache&lt;/code&gt; instances in a different way.&lt;/p&gt;
-
-&lt;h1&gt;
-&lt;a name="user-content-operation-level-customizations" class="anchor" href="#operation-level-customizations" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Operation-level customizations&lt;/h1&gt;
-
-&lt;p&gt;The community also reported that they wanted to be able to control the cache behaviour in a much more fine-grained manner. Spring 4.1 allows you to specify the &lt;code&gt;CacheResolver&lt;/code&gt; (or &lt;code&gt;CacheManager&lt;/code&gt;) and &lt;code&gt;KeyGenerator&lt;/code&gt; to use per operation. &lt;/p&gt;
-
-&lt;p&gt;For instance, the following applies a custom &lt;code&gt;KeyGenerator&lt;/code&gt; to that specific operation&lt;/p&gt;
-
-&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@Cacheable&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;value&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"book"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;keyGenerator&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"myKeyGenerator"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
-&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="n"&gt;Book&lt;/span&gt; &lt;span class="nf"&gt;findBook&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ISBN&lt;/span&gt; &lt;span class="n"&gt;isbn&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;boolean&lt;/span&gt; &lt;span class="n"&gt;checkWarehouse&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;boolean&lt;/span&gt; &lt;span class="n"&gt;includeUsed&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This looks for a &lt;code&gt;KeyGenerator&lt;/code&gt; bean with name &lt;code&gt;myKeyGenerator&lt;/code&gt;. CacheManager and cache resolver instances can be set in a similar fashion.&lt;/p&gt;
-
-&lt;h1&gt;
-&lt;a name="user-content-class-level-customizations" class="anchor" href="#class-level-customizations" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Class-level customizations&lt;/h1&gt;
-
-&lt;p&gt;Another community feedback was the ability to share those customizations at method level &lt;strong&gt;without&lt;/strong&gt; enabling any default cache behaviour. Meet &lt;code&gt;@CacheConfig&lt;/code&gt; which provides the same customizations at class-level, i.e. cache names, &lt;code&gt;CacheResolver&lt;/code&gt; (or &lt;code&gt;CacheManager&lt;/code&gt;) and &lt;code&gt;KeyGenerator&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class="highlight highlight-java"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@CacheConfig&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;cacheNames&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"book"&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;keyGenerator&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"myKeyGenerator"&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; 
-&lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;BookRepository&lt;/span&gt; &lt;span class="o"&gt;{&lt;/span&gt;
-
-    &lt;span class="nd"&gt;@Cacheable&lt;/span&gt;
-    &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="n"&gt;Book&lt;/span&gt; &lt;span class="nf"&gt;findBook&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ISBN&lt;/span&gt; &lt;span class="n"&gt;isbn&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{...}&lt;/span&gt;
-
-    &lt;span class="kd"&gt;public&lt;/span&gt; &lt;span class="n"&gt;Book&lt;/span&gt; &lt;span class="nf"&gt;thisIsNotCached&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt; &lt;span class="n"&gt;someArg&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="o"&gt;{...}&lt;/span&gt;
-&lt;span class="o"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h1&gt;
-&lt;a name="user-content-jcache-integration" class="anchor" href="#jcache-integration" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;JCache integration&lt;/h1&gt;
-
-&lt;p&gt;One of the main goal when we implemented the JSR-107 support was to leverage what we already had in our own abstraction so that existing apps can transition in a very smooth manner. JCache support actually uses Spring's caching abstraction internally which allows you to reuse your existing caching infrastructure with the standard annotations. When you specify a JSR-107 customization component such as a &lt;code&gt;javax.cache.annotation.CacheResolver&lt;/code&gt; or a &lt;code&gt;javax.cache.annotation.CacheKeyGenerator&lt;/code&gt;, we route it through our abstraction using an adapter.&lt;/p&gt;
-
-&lt;p&gt;What that means concretely is that you can keep your existing infrastructure and chose whichever mechanism you want. For instance, you can have a &lt;code&gt;ConcurrentMapCacheManager&lt;/code&gt; that uses &lt;code&gt;ConcurrentHashMap&lt;/code&gt; behinds the scenes with the standard JSR-107 annotations.&lt;/p&gt;
-
-&lt;p&gt;If you want to try that, check &lt;a href="https://github.com/snicoll/gs-caching/tree/jsr-107"&gt;this fork of the guide&lt;/a&gt; that uses JCache instead of the Spring annotations (commit &lt;a href="https://github.com/snicoll/gs-caching/commit/32fea97e3e0a5031c2e9f124ae0ab5b2f58aa617"&gt;32fea97&lt;/a&gt; shows what was actually changed)&lt;/p&gt;
-
-&lt;h1&gt;
-&lt;a name="user-content-wrapping-up" class="anchor" href="#wrapping-up" aria-hidden="true"&gt;&lt;span class="octicon octicon-link"&gt;&lt;/span&gt;&lt;/a&gt;Wrapping Up&lt;/h1&gt;
-
-&lt;p&gt;Spring 4.1 is due this summer and it will provide a major enhancement of its caching abstraction; adding support for JSR-107 helped us to further improve that. There are other small enhancements that were not covered in this post such as a better exception handling and a convenient &lt;code&gt;putIfAbsent&lt;/code&gt; method on the &lt;code&gt;Cache&lt;/code&gt; interface.&lt;/p&gt;
-
-&lt;p&gt;As always, we welcome community feedback, please try these features and let us know if you run into any issue.&lt;/p&gt;</content>
   </entry>
 </feed>
 

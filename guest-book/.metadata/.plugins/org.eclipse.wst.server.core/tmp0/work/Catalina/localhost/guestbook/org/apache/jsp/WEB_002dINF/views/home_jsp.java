@@ -71,6 +71,12 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<tr>\n");
       out.write("<td colspan=\"2\"><input name=\"content\" type=\"text\"></td>\n");
       out.write("</tr>\n");
+      out.write("<tr>\n");
+      out.write("<td><input type=\"submit\" />\n");
+      out.write("</td>\n");
+      out.write("<td><input type=\"reset\" />\n");
+      out.write("</td>\n");
+      out.write("</tr>\n");
       out.write("</table>\n");
       out.write("</form>\n");
       out.write("\n");

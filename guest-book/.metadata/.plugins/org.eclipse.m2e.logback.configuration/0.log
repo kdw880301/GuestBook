@@ -600,3 +600,150 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2014-07-04 01:53:07,332 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2014-07-04 01:53:13,346 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
 2014-07-04 01:53:13,346 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile -e -X
+2014-07-04 01:56:43,396 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-04 01:56:43,400 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-07-04 01:56:43,415 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-04 01:56:43,417 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-07-04 01:57:27,574 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.14.v20131031
+2014-07-04 01:57:27,610 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:13683
+2014-07-04 01:59:35,711 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
+2014-07-06 00:42:32,981 [Worker-50] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 00:42:33,126 [Worker-50] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:42:33,330 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springramework/spring-jdbc/3.2.8.RELEASE/spring-jdbc-3.2.8.RELEASE.pom
+2014-07-06 00:42:33,341 [Worker-50] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:42:34,746 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springramework/spring-jdbc/3.2.8.RELEASE/spring-jdbc-3.2.8.RELEASE.pom
+2014-07-06 00:42:34,750 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springramework:spring-jdbc:jar:3.2.8.RELEASE is missing, no dependency information available
+2014-07-06 00:42:34,767 [Worker-50] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:42:34,827 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springramework/spring-jdbc/3.2.8.RELEASE/spring-jdbc-3.2.8.RELEASE.jar
+2014-07-06 00:42:34,832 [Worker-50] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:42:38,258 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springramework/spring-jdbc/3.2.8.RELEASE/spring-jdbc-3.2.8.RELEASE.jar
+2014-07-06 00:42:39,167 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springramework:spring-jdbc:jar:3.2.8.RELEASE is missing, no dependency information available
+2014-07-06 00:42:51,721 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 00:42:51,721 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 00:43:01,167 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 00:43:01,168 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 00:50:28,864 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 00:50:28,934 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:28,998 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springframework/spring-jdbc/4.0.5.RELEASE/spring-jdbc-4.0.5.RELEASE.pom
+2014-07-06 00:50:29,003 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:29,413 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.0.5.RELEASE/spring-jdbc-4.0.5.RELEASE.pom
+2014-07-06 00:50:29,415 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.0.5.RELEASE/spring-jdbc-4.0.5.RELEASE.pom
+2014-07-06 00:50:29,618 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:29,647 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springframework/spring-beans/4.0.5.RELEASE/spring-beans-4.0.5.RELEASE.pom
+2014-07-06 00:50:29,651 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:30,136 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.5.RELEASE/spring-beans-4.0.5.RELEASE.pom
+2014-07-06 00:50:30,137 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.5.RELEASE/spring-beans-4.0.5.RELEASE.pom
+2014-07-06 00:50:30,399 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:30,435 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springframework/spring-core/4.0.5.RELEASE/spring-core-4.0.5.RELEASE.pom
+2014-07-06 00:50:30,444 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:30,939 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.5.RELEASE/spring-core-4.0.5.RELEASE.pom
+2014-07-06 00:50:30,941 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.5.RELEASE/spring-core-4.0.5.RELEASE.pom
+2014-07-06 00:50:31,202 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:31,243 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2014-07-06 00:50:31,251 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:31,743 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2014-07-06 00:50:31,987 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom
+2014-07-06 00:50:32,262 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:32,302 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2014-07-06 00:50:32,310 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:32,746 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2014-07-06 00:50:33,193 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
+2014-07-06 00:50:33,465 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:33,501 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springframework/spring-tx/4.0.5.RELEASE/spring-tx-4.0.5.RELEASE.pom
+2014-07-06 00:50:33,505 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:33,894 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.5.RELEASE/spring-tx-4.0.5.RELEASE.pom
+2014-07-06 00:50:33,897 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.5.RELEASE/spring-tx-4.0.5.RELEASE.pom
+2014-07-06 00:50:34,121 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:34,153 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springframework/spring-jdbc/4.0.5.RELEASE/spring-jdbc-4.0.5.RELEASE.jar
+2014-07-06 00:50:34,163 [New I/O client worker #17-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/springframework/spring-tx/4.0.5.RELEASE/spring-tx-4.0.5.RELEASE.jar
+2014-07-06 00:50:34,169 [Worker-47] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 00:50:34,554 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.0.5.RELEASE/spring-jdbc-4.0.5.RELEASE.jar
+2014-07-06 00:50:34,602 [New I/O client worker #18-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.5.RELEASE/spring-tx-4.0.5.RELEASE.jar
+2014-07-06 00:50:36,256 [New I/O client worker #18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.0.5.RELEASE/spring-jdbc-4.0.5.RELEASE.jar
+2014-07-06 00:50:36,947 [New I/O client worker #18-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.0.5.RELEASE/spring-tx-4.0.5.RELEASE.jar
+2014-07-06 00:50:38,482 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 00:50:38,483 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 00:50:42,925 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 00:50:42,925 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 00:51:16,094 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-07-06 00:51:20,488 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 00:51:20,488 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B compile -e -X
+2014-07-06 01:00:30,161 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:00:30,205 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2014-07-06 01:00:46,141 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:00:46,142 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 01:01:18,080 [Worker-63] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:01:18,083 [Worker-63] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 01:01:27,362 [Worker-63] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:01:27,363 [Worker-63] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 01:05:49,156 [Worker-75] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 01:05:49,218 [Worker-75] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:05:49,246 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-dbcp2/1.4/commons-dbcp2-1.4.pom
+2014-07-06 01:05:49,252 [Worker-75] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:05:49,653 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/1.4/commons-dbcp2-1.4.pom
+2014-07-06 01:05:49,658 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-dbcp2:jar:1.4 is missing, no dependency information available
+2014-07-06 01:05:49,682 [Worker-75] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:05:49,699 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-dbcp2/1.4/commons-dbcp2-1.4.jar
+2014-07-06 01:05:49,704 [Worker-75] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:05:50,063 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/1.4/commons-dbcp2-1.4.jar
+2014-07-06 01:05:50,203 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-dbcp2:jar:1.4 is missing, no dependency information available
+2014-07-06 01:06:04,269 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:06:04,269 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 01:06:38,165 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:06:38,165 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 01:07:44,321 [Worker-76] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 01:07:44,378 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:44,444 [New I/O client worker #23-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-dbcp2/2.0.1/commons-dbcp2-2.0.1.pom
+2014-07-06 01:07:44,450 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:45,062 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/2.0.1/commons-dbcp2-2.0.1.pom
+2014-07-06 01:07:45,239 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/2.0.1/commons-dbcp2-2.0.1.pom
+2014-07-06 01:07:45,450 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:45,468 [New I/O client worker #25-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-parent/33/commons-parent-33.pom
+2014-07-06 01:07:45,474 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:45,832 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+2014-07-06 01:07:46,377 [New I/O client worker #26-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+2014-07-06 01:07:46,598 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:46,624 [New I/O client worker #27-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.pom
+2014-07-06 01:07:46,628 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:46,993 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.pom
+2014-07-06 01:07:46,999 [New I/O client worker #28-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.pom
+2014-07-06 01:07:47,226 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:47,245 [New I/O client worker #29-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-dbcp2/2.0.1/commons-dbcp2-2.0.1.jar
+2014-07-06 01:07:47,247 [New I/O client worker #29-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar
+2014-07-06 01:07:47,250 [New I/O client worker #29-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2014-07-06 01:07:47,259 [Worker-76] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:07:47,587 [New I/O client worker #30-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2014-07-06 01:07:47,618 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/2.0.1/commons-dbcp2-2.0.1.jar
+2014-07-06 01:07:47,683 [New I/O client worker #30-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar
+2014-07-06 01:07:48,044 [New I/O client worker #30-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar
+2014-07-06 01:07:48,502 [New I/O client worker #30-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/2.0.1/commons-dbcp2-2.0.1.jar
+2014-07-06 01:07:48,516 [New I/O client worker #30-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.2/commons-pool2-2.2.jar
+2014-07-06 01:11:17,213 [Worker-82] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 01:11:23,976 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:11:23,976 [Worker-81] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 01:11:27,355 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:11:27,356 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 01:16:11,411 [Worker-88] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 01:16:11,470 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:16:11,499 [New I/O client worker #31-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-dbcp/2.0.1/commons-dbcp-2.0.1.pom
+2014-07-06 01:16:11,504 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:16:11,881 [New I/O client worker #32-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp/2.0.1/commons-dbcp-2.0.1.pom
+2014-07-06 01:16:11,889 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-dbcp:jar:2.0.1 is missing, no dependency information available
+2014-07-06 01:16:11,924 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:16:11,941 [New I/O client worker #33-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.cubrid.org/org/apache/commons/commons-dbcp/2.0.1/commons-dbcp-2.0.1.jar
+2014-07-06 01:16:11,946 [Worker-88] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-07-06 01:16:12,254 [New I/O client worker #34-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp/2.0.1/commons-dbcp-2.0.1.jar
+2014-07-06 01:16:12,371 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-dbcp:jar:2.0.1 is missing, no dependency information available
+2014-07-06 01:16:32,246 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:16:32,247 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 01:16:42,377 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:16:42,378 [Worker-88] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 01:16:58,323 [Worker-86] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:16:58,323 [Worker-86] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 01:17:03,403 [Worker-91] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 01:17:06,191 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:17:06,192 [Worker-90] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 01:51:28,092 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:51:28,093 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 01:51:34,212 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 01:51:34,213 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install

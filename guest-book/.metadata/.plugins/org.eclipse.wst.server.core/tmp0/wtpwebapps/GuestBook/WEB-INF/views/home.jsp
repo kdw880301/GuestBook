@@ -21,6 +21,12 @@
 <tr>
 <td colspan="2"><input name="content" type="text"></td>
 </tr>
+<tr>
+<td><input type="submit" />
+</td>
+<td><input type="reset" />
+</td>
+</tr>
 </table>
 </form>
 
