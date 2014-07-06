@@ -1,0 +1,81 @@
+package com.dhkim.guestbook;
+
+import java.util.List;
+import java.util.Map;
+import java.sql.*;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.dhkim.guestbook.*;
+
+public class BoardDAO {
+	public static void Initialize()
+	{
+		if(boardDAO == null)
+			boardDAO = new BoardDAO();
+		else return;
+	}
+	
+	private static BoardDAO boardDAO;
+	
+	private BoardDAO()
+	{
+	
+	}
+	
+	public static JdbcTemplate getJdbcTemplate() {
+		if(boardDAO == null)
+			boardDAO = new BoardDAO();
+		return jdbcTemplate;
+	}
+
+	public static void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		if(boardDAO == null)
+			boardDAO = new BoardDAO();
+		BoardDAO.jdbcTemplate = jdbcTemplate;
+	}
+
+	@Autowired
+	private static DataSource dataSource;
+	
+	private static JdbcTemplate jdbcTemplate;
+
+	public static DataSource getDataSource() {
+		if(boardDAO == null)
+			boardDAO = new BoardDAO();
+		return dataSource;
+	}
+
+	public void setDataSource(DataSource dataSource) {
+		if(boardDAO == null)
+			boardDAO = new BoardDAO();
+		dataSource = dataSource;
+		
+		jdbcTemplate = new JdbcTemplate(dataSource);
+	}
+	
+	public boolean emailCheck(String email)
+	{
+		return false;
+	}
+	
+	public int insert(Board board) {
+		String sql = "INSERT INTO board ([index], email, [password], content, reg_date, mod_date) VALUES (NULL, ?, ?, ?, ?, ?)";
+		
+		Object[] args = {board.getEmail(), board.getPwd(), board.getContent(), board.getRegister_Day(), board.getModify_Day()};
+		
+		setDataSource(dataSource);
+		return jdbcTemplate.update(sql, args);
+	}
+	
+	public List<Map<String, Object>> select() {
+		String sql = "SELECT [index], email, [password], content, reg_date, mod_date FROM board ORDER BY reg_date DESC";
+
+		setDataSource(dataSource);
+		return (List<Map<String, Object>>)jdbcTemplate.queryForList(sql);
+	}
+}

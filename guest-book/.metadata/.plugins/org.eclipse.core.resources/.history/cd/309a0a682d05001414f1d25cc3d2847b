@@ -1,0 +1,58 @@
+package com.dhkim.guestbook;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+
+import javax.sql.DataSource;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class WriteController {
+
+	
+	private static final Logger logger = LoggerFactory.getLogger(WriteController.class);
+	
+	/**
+	 * Simply selects the home view to render by returning its name.
+	 */
+	
+	@RequestMapping(value = "/process", method = RequestMethod.POST)
+	public String home(Locale locale, Model model,
+			@RequestParam("email") String email,
+			@RequestParam("pwd") String pwd,
+			@RequestParam("content") String content) {
+		logger.info("Welcome home! The client locale is {}.", locale);
+		
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+		
+		String formattedDate = dateFormat.format(date);
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("cubrid.xml");
+		
+		BoardDAO boardDao = BoardDAO.getInstance();
+		boardDao.setDataSource((DataSource)(context.getBean("dataSource")));
+		
+		Board board = new Board();
+		board.setEmail(email);
+		board.setContent(content);
+		board.setPwd(pwd);
+		board.setRegister_Day(formattedDate);
+		board.setModify_Day(formattedDate);
+		
+		boardDao.insert(board);
+		return "home";
+	}
+}

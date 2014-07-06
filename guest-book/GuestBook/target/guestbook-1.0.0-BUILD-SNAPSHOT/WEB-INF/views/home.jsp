@@ -5,33 +5,17 @@
 <html>
 <head>
 	<title>GuestBook</title>
+	<script>
+		function write() {
+			window.open("write.jsp");
+		}	
+	</script>
 </head>
 <body>
 <h1>
 	Welcome To Guest Book!! 
 </h1>
-
-<form method="get" action="">
-<table>
-<tr>
-<td>Email</td>
-<td><input name="email" type="text"></td>
-</tr>
-<tr>
-<td>Password</td>
-<td><input name="pwd" type="password"></td>
-</tr>
-<tr>
-<td colspan="2"><input name="content" type="text"></td>
-</tr>
-<tr>
-<td><input type="submit" />
-</td>
-<td><input type="reset" />
-</td>
-</tr>
-</table>
-</form>
+<input type="button" onclick="location.href='javascript:write();'"" value="글 쓰기" />
 
 <table>
 <tr>
