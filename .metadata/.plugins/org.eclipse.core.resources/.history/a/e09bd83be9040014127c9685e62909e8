@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv = "Content-Type" content="text/html" charset="EUC-KR">
+<title>방명록</title>
+</head>
+<body>
+<h1>방명록</h1>
+<table>
+<tr>
+<th>번호</th>
+<th>Email</th>
+<th>내용</th>
+<th>작성날짜</th>
+<th>수정한날짜</th>
+</tr>
+</table>
+<a href="write.html">글 쓰기</a>
+</body>
+</html>

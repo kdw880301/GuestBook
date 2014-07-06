@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>글 쓰기</title>
+<script>
+function formCheck() {
+	alert(documoent.forms[0].title.name);
+}
+</script>
+</head>
+<body>
+<form action="index.html" method="post" onsubmit="return formCheck();">
+<table>
+<tr>
+<td>Email</td>
+<td><input type="text" name="email" /></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="text" name="pwd" /></td>
+</tr>
+<tr>
+<td>Content</td>
+<td><input type="text" name="content" /></td>
+</tr>
+<tr>
+<td><input type="submit" value="작성" /></td>
+<td><input type="reset" value="지우기" /></td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>

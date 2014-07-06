@@ -5,7 +5,5 @@ INDEX VERSION 1.3+C:\Users\Kim\Documents\GitHub\guest-book\.metadata\.plugins\or
 3383075296.index
 202929851.index
 3902680189.index
-715470201.index
-715470201.index
 18007661.index
 3714162556.index

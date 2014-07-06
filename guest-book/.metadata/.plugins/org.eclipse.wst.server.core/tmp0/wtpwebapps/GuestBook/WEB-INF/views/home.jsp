@@ -1,14 +1,17 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@page import="com.dhkim.guestbook.Board"%>
+<%@ page contentType="text/html; charset=utf-8" %>
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>GuestBook</title>
 </head>
 <body>
 <h1>
-	Hello world!  
+	Welcome To Guest Book!! 
 </h1>
-<form method="post">
+
+<form method="get" action="">
 <table>
 <tr>
 <td>Email</td>
@@ -29,6 +32,29 @@
 </tr>
 </table>
 </form>
+
+<table>
+<tr>
+<th>Index</th><th>Email</th><th>내용</th><th>작성날짜</th><th>수정날짜
+</th>
+</tr>
+<%
+int size = (Integer)request.getAttribute("data_size");
+Board[] arr_Board = (Board[])request.getAttribute("arr_board");
+for(int i=0; i<size; ++i)
+{
+%>
+<tr>
+<td><%=arr_Board[i].getIdx() %></td>
+<td><%=arr_Board[i].getEmail() %></td>
+<td><%=arr_Board[i].getContent() %></td>
+<td><%=arr_Board[i].getRegister_Day() %></td>
+<td><%=arr_Board[i].getModify_Day() %></td>
+</tr>
+<%
+}
+%>
+</table>
 
 
 <P>  The time on the server is ${serverTime}. </P>

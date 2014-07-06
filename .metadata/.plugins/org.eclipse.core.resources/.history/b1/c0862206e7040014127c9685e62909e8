@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>글 쓰기</title>
+</head>
+<body>
+<form action="index.html" metho="post">
+<table>
+<tr>
+<td>Email</td>
+<td><input type="text" name="email" /></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="text" name="pwd" /></td>
+</tr>
+<tr>
+<td>Content</td>
+<td><input type="text" name="content" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

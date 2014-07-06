@@ -1,11 +1,18 @@
 package com.dhkim.guestbook;
 
 public class Board {
+	String idx;
 	String email = "";
 	String pwd = "";
 	String content = "";
 	String register_Day = "";
 	String modify_Day = "";
+	public String getIdx() {
+		return idx;
+	}
+	public void setIdx(String idx) {
+		this.idx = idx;
+	}
 	public String getEmail() {
 		return email;
 	}

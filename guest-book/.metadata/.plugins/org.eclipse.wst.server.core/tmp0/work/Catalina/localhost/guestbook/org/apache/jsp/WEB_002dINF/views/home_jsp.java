@@ -3,6 +3,7 @@ package org.apache.jsp.WEB_002dINF.views;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
+import com.dhkim.guestbook.Board;
 
 public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
@@ -39,7 +40,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
 
 
     try {
-      response.setContentType("text/html");
+      response.setContentType("text/html; charset=utf-8");
       pageContext = _jspxFactory.getPageContext(this, request, response,
       			null, false, 8192, true);
       _jspx_page_context = pageContext;
@@ -50,15 +51,18 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("\n");
+      out.write("\n");
+      out.write("\n");
       out.write("<html>\n");
       out.write("<head>\n");
-      out.write("\t<title>Home</title>\n");
+      out.write("\t<title>GuestBook</title>\n");
       out.write("</head>\n");
       out.write("<body>\n");
       out.write("<h1>\n");
-      out.write("\tHello world!  \n");
+      out.write("\tWelcome To Guest Book!! \n");
       out.write("</h1>\n");
-      out.write("<form method=\"post\">\n");
+      out.write("\n");
+      out.write("<form method=\"get\" action=\"\">\n");
       out.write("<table>\n");
       out.write("<tr>\n");
       out.write("<td>Email</td>\n");
@@ -79,6 +83,41 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</tr>\n");
       out.write("</table>\n");
       out.write("</form>\n");
+      out.write("\n");
+      out.write("<table>\n");
+      out.write("<tr>\n");
+      out.write("<th>Index</th><th>Email</th><th>내용</th><th>작성날짜</th><th>수정날짜\n");
+      out.write("</th>\n");
+      out.write("</tr>\n");
+
+int size = (Integer)request.getAttribute("data_size");
+Board[] arr_Board = (Board[])request.getAttribute("arr_board");
+for(int i=0; i<size; ++i)
+{
+
+      out.write("\n");
+      out.write("<tr>\n");
+      out.write("<td>");
+      out.print(arr_Board[i].getIdx() );
+      out.write("</td>\n");
+      out.write("<td>");
+      out.print(arr_Board[i].getEmail() );
+      out.write("</td>\n");
+      out.write("<td>");
+      out.print(arr_Board[i].getContent() );
+      out.write("</td>\n");
+      out.write("<td>");
+      out.print(arr_Board[i].getRegister_Day() );
+      out.write("</td>\n");
+      out.write("<td>");
+      out.print(arr_Board[i].getModify_Day() );
+      out.write("</td>\n");
+      out.write("</tr>\n");
+
+}
+
+      out.write("\n");
+      out.write("</table>\n");
       out.write("\n");
       out.write("\n");
       out.write("<P>  The time on the server is ");

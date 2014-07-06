@@ -747,3 +747,149 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2014-07-06 01:51:28,093 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
 2014-07-06 01:51:34,212 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
 2014-07-06 01:51:34,213 [Worker-98] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 20:54:38,770 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 20:54:38,774 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 20:54:43,864 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 20:54:43,865 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 20:57:53,273 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 20:57:53,275 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 20:57:57,487 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 20:57:57,487 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:00:43,330 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:00:43,331 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:01:08,473 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:01:08,474 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:01:13,113 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:01:13,113 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:01:33,070 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:01:33,070 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:02:17,885 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:02:17,886 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:02:21,730 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:02:21,730 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:03:07,692 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:03:07,692 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:03:10,650 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:03:10,650 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:03:30,317 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:03:30,318 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:03:44,709 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:03:44,709 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install -e -X
+2014-07-06 21:05:42,543 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:05:42,544 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:05:52,342 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-07-06 21:05:56,659 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:05:56,659 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install -e -X
+2014-07-06 21:08:13,309 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 21:08:13,377 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-dbcp:jar:2.0.1 is missing, no dependency information available
+2014-07-06 21:08:14,026 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.commons:commons-dbcp:jar:2.0.1 is missing, no dependency information available
+2014-07-06 21:08:30,798 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 21:08:33,603 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:08:33,604 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:08:36,907 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:08:36,907 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:08:45,310 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:08:45,311 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:08:57,829 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-07-06 21:09:02,867 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:09:02,867 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install -e -X
+2014-07-06 21:11:00,574 [Worker-32] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.dhkim:guestbook:1.0.0-BUILD-SNAPSHOT @ C:\Users\Kim\Documents\GitHub\guest-book\GuestBook\pom.xml.
+2014-07-06 21:11:12,035 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:11:12,036 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:11:16,162 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:11:16,163 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:14:58,126 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:14:58,126 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:15:01,127 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:15:01,128 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:17:55,810 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:17:55,811 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:17:58,938 [Worker-55] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:17:58,938 [Worker-55] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:20:31,894 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:20:31,895 [Worker-71] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:20:36,644 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:20:36,644 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:22:29,090 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:22:29,091 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:22:34,717 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:22:34,717 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:23:41,817 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:23:41,818 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:23:47,187 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:23:47,188 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:25:31,467 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:25:31,468 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:25:36,682 [Worker-79] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:25:36,683 [Worker-79] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 21:26:14,900 [Worker-72] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:26:14,901 [Worker-72] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 21:26:17,747 [Worker-72] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 21:26:17,747 [Worker-72] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 22:31:34,368 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 22:31:34,368 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 22:31:37,863 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 22:31:37,864 [Worker-117] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 22:58:14,137 [Worker-160] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 22:58:14,139 [Worker-160] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 22:58:16,811 [Worker-165] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 22:58:16,812 [Worker-165] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:10:54,715 [Worker-188] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:10:54,716 [Worker-188] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:11:00,620 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:11:00,621 [Worker-184] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:11:23,540 [Worker-164] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:11:23,541 [Worker-164] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:11:27,035 [Worker-188] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:11:27,035 [Worker-188] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:11:55,865 [Worker-176] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:11:55,865 [Worker-176] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:13:15,738 [Worker-197] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:13:15,739 [Worker-197] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:13:19,936 [Worker-185] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:13:19,937 [Worker-185] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:19:20,518 [Worker-215] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:19:20,518 [Worker-215] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:19:24,292 [Worker-217] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:19:24,292 [Worker-217] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:29:32,676 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-06 23:29:32,679 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-07-06 23:29:32,693 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-06 23:29:32,695 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-07-06 23:30:07,653 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2014-07-06 23:30:12,108 [Worker-207] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:30:12,109 [Worker-207] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:30:15,891 [Worker-208] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:30:15,891 [Worker-208] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:31:43,987 [Worker-224] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:31:43,988 [Worker-224] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:31:48,519 [Worker-206] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:31:48,519 [Worker-206] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:54:39,868 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:54:39,873 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:54:43,465 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:54:43,466 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-06 23:57:41,105 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:57:41,106 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-06 23:58:04,557 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-06 23:58:04,558 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-07 00:08:33,746 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:08:33,747 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-07 00:08:36,905 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:08:36,906 [Worker-41] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-07 00:11:00,659 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:11:00,659 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-07 00:11:03,855 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:11:03,855 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-07 00:14:23,511 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:14:23,511 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-07 00:14:27,310 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:14:27,311 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-07 00:21:09,346 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:21:09,351 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-07 00:21:12,217 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:21:12,217 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-07 00:21:46,626 [Worker-61] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:21:46,627 [Worker-61] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-07 00:21:50,036 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Kim\Documents\GitHub\guest-book\GuestBook
+2014-07-07 00:21:50,037 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install

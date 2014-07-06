@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"  pageEncoding="EUC-KR"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv = "Content-Type" content="text/html" charset="EUC-KR">
+<title>¹æ¸í·Ï</title>
+</head>
+<body>
+<h1>¹æ¸í·Ï</h1>
+<table>
+<tr>
+<th>¹øÈ£</th>
+<th>Email</th>
+<th>³»¿ë</th>
+<th>ÀÛ¼º³¯Â¥</th>
+<th>¼öÁ¤ÇÑ³¯Â¥</th>
+</tr>
+</table>
+<a href="write.html">±Û ¾²±â</a>
+</body>
+</html>

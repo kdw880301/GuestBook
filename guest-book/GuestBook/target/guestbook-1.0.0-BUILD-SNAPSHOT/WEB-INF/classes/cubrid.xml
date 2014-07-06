@@ -8,7 +8,7 @@
         class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="cubrid.jdbc.driver.CUBRIDDriver" />
         <property name="url"
-            value="jdbc:cubrid:localhost:30000:board:::?charset=UTF-8" />
+            value="jdbc:cubrid:localhost:30000:guestbook:::" />
         <property name="username" value="dba" />
         <property name="password" value="q1w2e3" />
     </bean>
